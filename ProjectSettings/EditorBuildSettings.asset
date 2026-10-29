@@ -26,9 +26,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/6 WebRTC/WebRTC-SingleClient.unity
     guid: 391160c7b8e603c4e82dd04b0c807c3e
-  - enabled: 0
-    path: Assets/Samples/5 ImageLLM/DetectionScene.unity
-    guid: 29f25addc1c5b431e9ef3635c58d036c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1f6e424bb69784f8e8b5df6563fe45de, type: 2}
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}

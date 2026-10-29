@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Black Whale Studio
-  productName: Unity-QuestVisionKit
+  companyName: George Igwegbe
+  productName: Dragonwing Quest Assistant
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -147,8 +147,6 @@ PlayerSettings:
   bundleVersion: 0.1.0
   preloadedAssets:
   - {fileID: 11400000, guid: 5d826038237f5496fbd76f720ad11943, type: 2}
-  - {fileID: -8330565084897345904, guid: 232818ccf539e994c9a9642b8a679f17, type: 2}
-  - {fileID: 4800320563865251929, guid: a1a3bb74343034748bfcead56c6c2da6, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -170,7 +168,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.BlackWhaleStudio.UnityQuestVisionKit
+    Android: com.georgeigwegbe.dragonwingquestassistant
     Standalone: com.Unity-Technologies.com.unity.template.urp-blank
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
@@ -543,12 +541,8 @@ PlayerSettings:
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: AndroidPlayer
     m_GraphicsJobs: 1
-  - m_BuildTarget: MacStandaloneSupport
-    m_GraphicsJobs: 1
   m_BuildTargetGraphicsJobMode:
   - m_BuildTarget: AndroidPlayer
-    m_GraphicsJobMode: 1
-  - m_BuildTarget: MacStandaloneSupport
     m_GraphicsJobMode: 1
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: iOSSupport
@@ -594,7 +588,7 @@ PlayerSettings:
   enableCrashReportAPI: 0
   cameraUsageDescription: 
   locationUsageDescription: 
-  microphoneUsageDescription: 
+  microphoneUsageDescription: Used for voice questions
   bluetoothUsageDescription: 
   macOSTargetOSVersion: 12.0
   switchNMETAOverride: 
@@ -851,7 +845,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Android: ISDK_OPENXR_HAND;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;SENTIS_ANALYTICS_ENABLED;WEBRTC_ENABLED;OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;APP_UI_EDITOR_ONLY
+    Android: ISDK_OPENXR_HAND;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;SENTIS_ANALYTICS_ENABLED;WEBRTC_ENABLED;APP_UI_EDITOR_ONLY
     EmbeddedLinux: 
     GameCoreScarlett: 
     GameCoreXboxOne: 
@@ -861,7 +855,7 @@ PlayerSettings:
     PS5: 
     QNX: 
     ReservedCFE: 
-    Standalone: ISDK_OPENXR_HAND;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;WEBRTC_ENABLED;SENTIS_ANALYTICS_ENABLED;OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;APP_UI_EDITOR_ONLY
+    Standalone: ISDK_OPENXR_HAND;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;WEBRTC_ENABLED
     VisionOS: 
     Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     XboxOne: 
